@@ -8,6 +8,8 @@ export var from .env file
 export $(grep -v '^#' .env | xargs -0)
 ```
 
+[environment variables for s3 backend](https://www.terraform.io/language/settings/backends/s3#credentials-and-shared-configuration)
+
 ## Yandex Compute Cloud
 
 ### доступ к серийной консоли
