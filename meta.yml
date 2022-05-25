@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: rupreht
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAC6Fcl+tFt6nmFSGnT8OXMF6nyhLeujpyEpEvdytmdDAVryTwLpMUuKkCwCvkUvix1C4rIdRASdYHFe78A1/YktcxVN5l5NkGZ366QKNZ6cD7iK6VY99n3x1iZg938ZS5WDJVaLCsaZPLlELA8MHsUUvVAQsOcVxye4j3cBqJwStf0mquNsPLJVnKXWpeeBhkwRrC8jpZxO22Wpr8wyYOLc4o0EcIPZdjEQuy8qrAcNN033WVm4CGCarkuLasul/Y6mJTh86JWnItjQIRBrL6oVVU7xPWUvOzSJKE340nFWp+GW05ibMA3v0YtKxKcpbgswGAUrhRIef4CjyyNwPtLzE5cCsn4OcWeT+6g1xfIzFVwjRmtjMKrMrZuTsYzgHPiYtqyWg9aQp1oH/fE7tnJZji/YpwHhi0FZ2IYE93NLSTblbgO7nFSmc8uAkiDi3a40zhobQu/943b+iEuRgoJgEYQeQt+PGfDZn9GM5/dzXcTt5FTMuvTulyLmcQWD4D4udnB35y/1vLaVPnOLdVkt7QAIRxVeIN/wTfvJ5fEwE8a2vcVijXSrcY/xFB0aZRLmJWhmteyHL0BCvx9p7JZf4hHZbYsx9AV2+JhSwDgW/j3tweT6BQeblDNzzv7j9nrXY2tAYjU58VvWa1knG84IFw2H099a2D9CLUl9tdo3j rupreht@macos

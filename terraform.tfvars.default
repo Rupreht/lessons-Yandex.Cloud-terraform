@@ -1,0 +1,6 @@
+token        = ""
+folder_id    = ""
+cloud_id     = ""
+bucket       = ""
+zone         = "ru-central1-a"
+tfstate_file = "terraform.tfstate"
