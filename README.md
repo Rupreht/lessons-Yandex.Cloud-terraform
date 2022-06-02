@@ -1,5 +1,7 @@
 # Yandex.Cloud & Terraform
 
+[Terraform Provider](https://github.com/yandex-cloud/terraform-provider-yandex/releases)
+
 ## Prepare
 
 export var from .env file
