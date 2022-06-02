@@ -28,7 +28,7 @@ locals {
 
 }
 
-// создадим тдругой тесттовый каталог
+// создадим other тестовый каталог
 resource "yandex_resourcemanager_folder" "test_iam" {
   cloud_id    = var.cloud_id
   name        = "test-iam"
